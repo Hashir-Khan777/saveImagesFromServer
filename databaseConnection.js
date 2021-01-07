@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const databaseConnection = mongoose.connect(
-  "mongodb+srv://Hashir_Khan:hashirkhan555@cluster0.ulzxi.mongodb.net/addToCart?retryWrites=true&w=majority",
+  "mongodb+srv://Hashir_Khan:pass@cluster0.ulzxi.mongodb.net/dbname?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
   }
